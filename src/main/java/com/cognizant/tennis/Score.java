@@ -19,5 +19,5 @@ public enum Score {
     public Score getNext() {
         return values()[(ordinal() + 1) % values().length];
     }
-	
+    
 }
